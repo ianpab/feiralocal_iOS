@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0B01171C2520016A0090F5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01171B2520016A0090F5AD /* AppDelegate.swift */; };
 		0B01171E2520016A0090F5AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01171D2520016A0090F5AD /* SceneDelegate.swift */; };
-		0B0117202520016A0090F5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01171F2520016A0090F5AD /* ViewController.swift */; };
+		0B0117202520016A0090F5AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01171F2520016A0090F5AD /* HomeViewController.swift */; };
 		0B0117232520016A0090F5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0117212520016A0090F5AD /* Main.storyboard */; };
 		0B011725252001710090F5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B011724252001710090F5AD /* Assets.xcassets */; };
 		0B011728252001710090F5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B011726252001710090F5AD /* LaunchScreen.storyboard */; };
+		0B011738252038740090F5AD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B011737252038740090F5AD /* UIView+Extension.swift */; };
+		0B1D07EB25218449006F4572 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D07EA25218449006F4572 /* cities.json */; };
+		0BA8F2FD25226F29008D21F0 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */; };
+		0BA8F2FF25226F46008D21F0 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */; };
+		0BA8F3012522768B008D21F0 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F3002522768B008D21F0 /* Cities.swift */; };
+		0BA8F30325227708008D21F0 /* CitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F30225227708008D21F0 /* CitiesManager.swift */; };
+		B96813A32B4E9A3E5EC91836 /* Pods_FeiraLocal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D18CE76FEEE630A566481D1 /* Pods_FeiraLocal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B0117182520016A0090F5AD /* FeiraLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiraLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B01171B2520016A0090F5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B01171D2520016A0090F5AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B01171F2520016A0090F5AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B01171F2520016A0090F5AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0B0117222520016A0090F5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B011724252001710090F5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B011727252001710090F5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B011729252001710090F5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B011737252038740090F5AD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0B1D07EA25218449006F4572 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		0BA8F3002522768B008D21F0 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		0BA8F30225227708008D21F0 /* CitiesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesManager.swift; sourceTree = "<group>"; };
+		28C572DEA1DB7BB5EE31F975 /* Pods-FeiraLocal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiraLocal.release.xcconfig"; path = "Target Support Files/Pods-FeiraLocal/Pods-FeiraLocal.release.xcconfig"; sourceTree = "<group>"; };
+		8D18CE76FEEE630A566481D1 /* Pods_FeiraLocal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeiraLocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57AB13F39022D280EB2541E /* Pods-FeiraLocal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiraLocal.debug.xcconfig"; path = "Target Support Files/Pods-FeiraLocal/Pods-FeiraLocal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96813A32B4E9A3E5EC91836 /* Pods_FeiraLocal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				0B01171A2520016A0090F5AD /* FeiraLocal */,
 				0B0117192520016A0090F5AD /* Products */,
+				2A60CCBB660AEC932CAA90E5 /* Pods */,
+				FEB0A2C506ADE33A5382250D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,70 @@
 		0B01171A2520016A0090F5AD /* FeiraLocal */ = {
 			isa = PBXGroup;
 			children = (
+				0B1D07EC25218450006F4572 /* Files */,
+				0B0117392520387A0090F5AD /* Model */,
 				0B01171B2520016A0090F5AD /* AppDelegate.swift */,
 				0B01171D2520016A0090F5AD /* SceneDelegate.swift */,
-				0B01171F2520016A0090F5AD /* ViewController.swift */,
-				0B0117212520016A0090F5AD /* Main.storyboard */,
+				0B01173525202F0C0090F5AD /* Controller */,
+				0B01173625202F190090F5AD /* View */,
 				0B011724252001710090F5AD /* Assets.xcassets */,
-				0B011726252001710090F5AD /* LaunchScreen.storyboard */,
 				0B011729252001710090F5AD /* Info.plist */,
 			);
 			path = FeiraLocal;
+			sourceTree = "<group>";
+		};
+		0B01173525202F0C0090F5AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B01171F2520016A0090F5AD /* HomeViewController.swift */,
+				0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */,
+				0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0B01173625202F190090F5AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B011726252001710090F5AD /* LaunchScreen.storyboard */,
+				0B0117212520016A0090F5AD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B0117392520387A0090F5AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B011737252038740090F5AD /* UIView+Extension.swift */,
+				0BA8F3002522768B008D21F0 /* Cities.swift */,
+				0BA8F30225227708008D21F0 /* CitiesManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B1D07EC25218450006F4572 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B1D07EA25218449006F4572 /* cities.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		2A60CCBB660AEC932CAA90E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A57AB13F39022D280EB2541E /* Pods-FeiraLocal.debug.xcconfig */,
+				28C572DEA1DB7BB5EE31F975 /* Pods-FeiraLocal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEB0A2C506ADE33A5382250D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D18CE76FEEE630A566481D1 /* Pods_FeiraLocal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B01172C252001710090F5AD /* Build configuration list for PBXNativeTarget "FeiraLocal" */;
 			buildPhases = (
+				1546991C4768BBB2773F7201 /* [CP] Check Pods Manifest.lock */,
 				0B0117142520016A0090F5AD /* Sources */,
 				0B0117152520016A0090F5AD /* Frameworks */,
 				0B0117162520016A0090F5AD /* Resources */,
+				1E87FEB9071DB842451CBACA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +203,67 @@
 			files = (
 				0B011728252001710090F5AD /* LaunchScreen.storyboard in Resources */,
 				0B011725252001710090F5AD /* Assets.xcassets in Resources */,
+				0B1D07EB25218449006F4572 /* cities.json in Resources */,
 				0B0117232520016A0090F5AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1546991C4768BBB2773F7201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeiraLocal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E87FEB9071DB842451CBACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeiraLocal/Pods-FeiraLocal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeiraLocal/Pods-FeiraLocal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FeiraLocal/Pods-FeiraLocal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B0117142520016A0090F5AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B0117202520016A0090F5AD /* ViewController.swift in Sources */,
+				0BA8F2FF25226F46008D21F0 /* CityTableViewCell.swift in Sources */,
+				0B0117202520016A0090F5AD /* HomeViewController.swift in Sources */,
+				0BA8F30325227708008D21F0 /* CitiesManager.swift in Sources */,
+				0BA8F2FD25226F29008D21F0 /* CitiesTableViewController.swift in Sources */,
 				0B01171C2520016A0090F5AD /* AppDelegate.swift in Sources */,
+				0BA8F3012522768B008D21F0 /* Cities.swift in Sources */,
+				0B011738252038740090F5AD /* UIView+Extension.swift in Sources */,
 				0B01171E2520016A0090F5AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +406,7 @@
 		};
 		0B01172D252001710090F5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57AB13F39022D280EB2541E /* Pods-FeiraLocal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +419,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.FeiraLocal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0B01172E252001710090F5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C572DEA1DB7BB5EE31F975 /* Pods-FeiraLocal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.FeiraLocal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
