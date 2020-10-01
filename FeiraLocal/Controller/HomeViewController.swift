@@ -37,7 +37,7 @@ class HomeViewController: UIViewController{
     
     override func prepare(for segue: UIStoryboardSegue, sender _: Any?) {
         if segue.identifier == "cityFinder",
-            let citiesViewController = segue.destination as? CitiesTableViewController {
+            let citiesViewController = segue.destination as? CitiesViewController {
             
             citiesViewController.delegate = self
         }

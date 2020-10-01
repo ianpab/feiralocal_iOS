@@ -15,6 +15,7 @@
 		0B011728252001710090F5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B011726252001710090F5AD /* LaunchScreen.storyboard */; };
 		0B011738252038740090F5AD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B011737252038740090F5AD /* UIView+Extension.swift */; };
 		0B1D07EB25218449006F4572 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D07EA25218449006F4572 /* cities.json */; };
+		0B6AB74125257B5C00A59DD9 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6AB74025257B5C00A59DD9 /* CitiesViewController.swift */; };
 		0BA8F2FD25226F29008D21F0 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */; };
 		0BA8F2FF25226F46008D21F0 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */; };
 		0BA8F3012522768B008D21F0 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F3002522768B008D21F0 /* Cities.swift */; };
@@ -33,6 +34,7 @@
 		0B011729252001710090F5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B011737252038740090F5AD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		0B1D07EA25218449006F4572 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		0B6AB74025257B5C00A59DD9 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
 		0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
 		0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 		0BA8F3002522768B008D21F0 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				0B01171F2520016A0090F5AD /* HomeViewController.swift */,
 				0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */,
+				0B6AB74025257B5C00A59DD9 /* CitiesViewController.swift */,
 				0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */,
 			);
 			path = Controller;
@@ -260,6 +263,7 @@
 				0BA8F2FF25226F46008D21F0 /* CityTableViewCell.swift in Sources */,
 				0B0117202520016A0090F5AD /* HomeViewController.swift in Sources */,
 				0BA8F30325227708008D21F0 /* CitiesManager.swift in Sources */,
+				0B6AB74125257B5C00A59DD9 /* CitiesViewController.swift in Sources */,
 				0BA8F2FD25226F29008D21F0 /* CitiesTableViewController.swift in Sources */,
 				0B01171C2520016A0090F5AD /* AppDelegate.swift in Sources */,
 				0BA8F3012522768B008D21F0 /* Cities.swift in Sources */,
