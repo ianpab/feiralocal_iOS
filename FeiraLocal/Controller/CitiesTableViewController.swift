@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol CitieFinderDelegate {
+    func addCity(city: Cities)
+}
+
 class CitiesTableViewController: UITableViewController {
 
     var records:[Int] = Array()
@@ -15,6 +19,8 @@ class CitiesTableViewController: UITableViewController {
     var filtered: [Cities] = []
     var limit = 20
     var searchActive : Bool = false
+    var delegate: CitieFinderDelegate!
+
 
     
     @IBOutlet weak var searchBar: UISearchBar!
@@ -88,7 +94,12 @@ class CitiesTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //
+        let city = cities[indexPath.row]
+       let findCity = Cities(UF: city.UF, City: city.City)
+
+        dismiss(animated: true, completion: {
+            self.delegate?.addCity(city: findCity)
+        })
     }
     
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {

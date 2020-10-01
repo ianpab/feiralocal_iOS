@@ -8,12 +8,13 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController{
 
     @IBOutlet weak var tfSearchCity: UITextField!
     @IBOutlet weak var btSearchPoints: UIButton!
     
-    
+
+
     // MARK: - View
     
     override func viewDidLoad() {
@@ -22,13 +23,33 @@ class HomeViewController: UIViewController {
         view.setGradientBackground(colorOne: UIColor(named: "ligthGreen")!, colorTwo: UIColor(named: "darkGreen")!)
    // Visual botao
         btSearchPoints.layer.cornerRadius = 10
+   //a
+        
     }
+    
+  
     
     // MARK: - Actions
     
     @IBAction func btSearchPoints(_ sender: UIButton) {
-    }
-    
 
 }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender _: Any?) {
+        if segue.identifier == "cityFinder",
+            let citiesViewController = segue.destination as? CitiesTableViewController {
+            
+            citiesViewController.delegate = self
+        }
+    }
+  
+    
+}
+extension HomeViewController: CitieFinderDelegate{
+    func addCity(city: Cities){
+        tfSearchCity.text = city.City
+        }
+    
+}
+
 
