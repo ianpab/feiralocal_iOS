@@ -15,11 +15,16 @@
 		0B011728252001710090F5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B011726252001710090F5AD /* LaunchScreen.storyboard */; };
 		0B011738252038740090F5AD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B011737252038740090F5AD /* UIView+Extension.swift */; };
 		0B1D07EB25218449006F4572 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D07EA25218449006F4572 /* cities.json */; };
+		0B20A44F2559BE5200E941E3 /* CitiesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B20A44E2559BE5200E941E3 /* CitiesAPI.swift */; };
 		0B6AB74125257B5C00A59DD9 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6AB74025257B5C00A59DD9 /* CitiesViewController.swift */; };
-		0BA8F2FD25226F29008D21F0 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */; };
-		0BA8F2FF25226F46008D21F0 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */; };
+		0B8FD8ED252E466600685884 /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FD8EC252E466600685884 /* PointsViewController.swift */; };
+		0B8FD8EF252E8FF800685884 /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FD8EE252E8FF800685884 /* Points.swift */; };
+		0B8FD8F1252EAC0700685884 /* PointsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FD8F0252EAC0700685884 /* PointsAPI.swift */; };
+		0B9D27E62533C7EE007649FE /* PointInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D27E52533C7EE007649FE /* PointInfoViewController.swift */; };
+		0B9D27E8253406B5007649FE /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D27E7253406B5007649FE /* PlaceAnnotation.swift */; };
 		0BA8F3012522768B008D21F0 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F3002522768B008D21F0 /* Cities.swift */; };
 		0BA8F30325227708008D21F0 /* CitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8F30225227708008D21F0 /* CitiesManager.swift */; };
+		0BE5FCE0254117AB009DC386 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE5FCDF254117AB009DC386 /* AboutUsViewController.swift */; };
 		B96813A32B4E9A3E5EC91836 /* Pods_FeiraLocal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D18CE76FEEE630A566481D1 /* Pods_FeiraLocal.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,11 +39,16 @@
 		0B011729252001710090F5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B011737252038740090F5AD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		0B1D07EA25218449006F4572 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		0B20A44E2559BE5200E941E3 /* CitiesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesAPI.swift; sourceTree = "<group>"; };
 		0B6AB74025257B5C00A59DD9 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
-		0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
-		0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		0B8FD8EC252E466600685884 /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		0B8FD8EE252E8FF800685884 /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		0B8FD8F0252EAC0700685884 /* PointsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsAPI.swift; sourceTree = "<group>"; };
+		0B9D27E52533C7EE007649FE /* PointInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointInfoViewController.swift; sourceTree = "<group>"; };
+		0B9D27E7253406B5007649FE /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
 		0BA8F3002522768B008D21F0 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
 		0BA8F30225227708008D21F0 /* CitiesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesManager.swift; sourceTree = "<group>"; };
+		0BE5FCDF254117AB009DC386 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		28C572DEA1DB7BB5EE31F975 /* Pods-FeiraLocal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiraLocal.release.xcconfig"; path = "Target Support Files/Pods-FeiraLocal/Pods-FeiraLocal.release.xcconfig"; sourceTree = "<group>"; };
 		8D18CE76FEEE630A566481D1 /* Pods_FeiraLocal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeiraLocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57AB13F39022D280EB2541E /* Pods-FeiraLocal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiraLocal.debug.xcconfig"; path = "Target Support Files/Pods-FeiraLocal/Pods-FeiraLocal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,9 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				0B01171F2520016A0090F5AD /* HomeViewController.swift */,
-				0BA8F2FC25226F29008D21F0 /* CitiesTableViewController.swift */,
+				0BE5FCDF254117AB009DC386 /* AboutUsViewController.swift */,
 				0B6AB74025257B5C00A59DD9 /* CitiesViewController.swift */,
-				0BA8F2FE25226F46008D21F0 /* CityTableViewCell.swift */,
+				0B8FD8EC252E466600685884 /* PointsViewController.swift */,
+				0B9D27E52533C7EE007649FE /* PointInfoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,7 +125,11 @@
 			children = (
 				0B011737252038740090F5AD /* UIView+Extension.swift */,
 				0BA8F3002522768B008D21F0 /* Cities.swift */,
+				0B20A44E2559BE5200E941E3 /* CitiesAPI.swift */,
 				0BA8F30225227708008D21F0 /* CitiesManager.swift */,
+				0B8FD8EE252E8FF800685884 /* Points.swift */,
+				0B8FD8F0252EAC0700685884 /* PointsAPI.swift */,
+				0B9D27E7253406B5007649FE /* PlaceAnnotation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,14 +275,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BA8F2FF25226F46008D21F0 /* CityTableViewCell.swift in Sources */,
 				0B0117202520016A0090F5AD /* HomeViewController.swift in Sources */,
 				0BA8F30325227708008D21F0 /* CitiesManager.swift in Sources */,
 				0B6AB74125257B5C00A59DD9 /* CitiesViewController.swift in Sources */,
-				0BA8F2FD25226F29008D21F0 /* CitiesTableViewController.swift in Sources */,
+				0BE5FCE0254117AB009DC386 /* AboutUsViewController.swift in Sources */,
 				0B01171C2520016A0090F5AD /* AppDelegate.swift in Sources */,
+				0B20A44F2559BE5200E941E3 /* CitiesAPI.swift in Sources */,
+				0B9D27E8253406B5007649FE /* PlaceAnnotation.swift in Sources */,
 				0BA8F3012522768B008D21F0 /* Cities.swift in Sources */,
+				0B8FD8F1252EAC0700685884 /* PointsAPI.swift in Sources */,
 				0B011738252038740090F5AD /* UIView+Extension.swift in Sources */,
+				0B8FD8ED252E466600685884 /* PointsViewController.swift in Sources */,
+				0B8FD8EF252E8FF800685884 /* Points.swift in Sources */,
+				0B9D27E62533C7EE007649FE /* PointInfoViewController.swift in Sources */,
 				0B01171E2520016A0090F5AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

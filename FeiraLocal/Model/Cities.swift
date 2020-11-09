@@ -21,3 +21,6 @@ struct Cities: Codable, Equatable, Comparable {
     return lhs.City < rhs.City
  }
 }
+struct CitiesInfo:Codable {
+    let id: Int
+}

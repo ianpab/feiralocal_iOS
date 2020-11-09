@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Alamofire
 
 enum CitiesError{
     case noData
@@ -34,5 +33,8 @@ class CitiesManager {
       }
         
     }
+    
+    
+    
       
 }
